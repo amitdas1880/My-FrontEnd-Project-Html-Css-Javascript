@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+<main>
+    <h1>Weather Cities Project</h1>
+    <form action="#" id="search">
+        <div class="search-bar">
+            <span class="material-icons">
+                search
+            </span>
+            <input type="text" id="inp" class="input" value="" placeholder="Search for a city or airport" required>
+        </div>  
+        <button class="button" onclick="myfun()">Search</button>
+    </form>
+
+
+
+
+    <section class="display-row">
+       
+        <div class="card">
+            <h2 id="city"></h2>
+            <img src="" id="img">
+            <p id="type"></p>
+            <h1 id="temp"></h1>
+        <div class="box-item">
+            <div class="box">
+                <img src="./images/temp high.png">
+                <p id="high"></p>
+            </div>
+            <div class="box">
+                <img src="./images/temp cold.png">
+                <p id="low"></p>
+            </div>
+            <div class="box">
+                <img src="./images/humidity.jpg">
+                <p id="humidity"></p>
+            </div>
+        </div>
+     </div>
+     
+        
+    </section>
+</main>    
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

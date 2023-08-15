@@ -1,0 +1,214 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* background-color: rgb(20, 10, 78); */
+}
+html{
+    font-size: 6.25%;
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:black;
+}
+body{
+   
+    border: 3rem solid black;
+    height: 100%;
+    width: 35%;
+    background: rgb(184, 157, 161);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color:rgb(29, 29, 104);
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    font-size: 30rem;
+}
+
+/* Search (start) */
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: beige;
+    gap: 5rem;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    border: 1rem solid rgb(55, 46, 134);
+    padding: 5rem 0rem;
+    padding-right: 8rem;
+    border-radius: 5rem;
+}
+.input{
+    border: none;
+    outline: none;
+    width: 350rem;
+    color:rgb(29, 29, 104);
+    background: rgb(184, 157, 161);
+}
+.button{
+    padding: 10rem 15rem;
+    background-color: rgb(19, 19, 231);
+    color: beige;
+    border-radius: 5rem;
+}
+
+/* Search (end) */
+
+/* Card (start) */
+.card{
+    margin-top: 60rem;
+    border: 2rem solid white;
+    border-radius: 5rem;
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    background: lightgray;
+    color: black;
+    /* align-items: center;
+    justify-content: center; */
+}
+.display-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#city, #type{
+    display: flex;
+    justify-content: center;
+    font-size: 30rem;
+    padding-top: 10rem;
+    font-weight: 900;
+}
+/* Image Setting (tart) */
+.box-item{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15rem;
+}
+.box > img {
+    width: 38rem;
+    height: 38rem;
+}
+.box{
+    display: flex;
+    padding-bottom: 15rem;
+    gap: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+}
+
+
+/* Image Setting (End) */
+/* card (end) */
+
+ 
+@media(max-width: 478px) {
+ 
+    html{
+        font-size: 30%;
+    }
+
+
+    /* h1{
+        font-size: 15px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
+    
+    
+    #search{
+           gap: 5px;
+    }
+    
+    .input{
+        width: 120px;
+    
+        padding: 2px 3px;
+    }
+    .button{
+        padding: 10px 5px;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+     */
+    
+    
+}
+
+
+
+
+@media(max-width: 768px) {
+ 
+
+
+    h1{
+        font-size: 15px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
+    
+    /* Search (start) */
+    #search{
+           gap: 5px;
+    }
+    
+    .input{
+        width: 120px;
+    
+        padding: 2px 3px;
+    }
+    .button{
+        padding: 10px 5px;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+    
+    
+    
+}
+
+
+
+
+
+@media(max-width: 1024px) {
+ 
+
+
+    h1{
+        font-size: 35px;
+        padding-bottom: 20px;
+        padding-top: 15px;
+    }
+    
+    /* Search (start) */
+    #search{
+           gap: 5px;
+    }
+    
+    .input{
+        width: 200px;
+    
+        padding: 10px 305px;
+    }
+    .button{
+        padding: 10px 10px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    #search{
+        padding-bottom: 15px;
+    }
+    
+    
+}
